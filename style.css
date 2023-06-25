@@ -2,8 +2,7 @@
 body{
     font-family: "roboto", sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     margin: 0;
 }
 
@@ -13,11 +12,6 @@ body{
     display: flex;
     flex-direction: column;
     color: white;
-    padding-left: 180px;
-    padding-bottom: 180px;
-    padding-right: 180px;
-    width: 100%;
-    height: auto;
 }
 
 .header-logo{
@@ -28,7 +22,7 @@ body{
 
 .top-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
 }
 
@@ -44,6 +38,7 @@ a{
 
 }
 
+/*top-content includes the text + the image*/
 .top-content{
     display: flex;
     flex-direction: row;
@@ -51,14 +46,14 @@ a{
     justify-content: center;
     gap: 80px;
     align-items: center;
-    margin-top: 90px;
     flex: 1 0 auto;
+    margin-left: 215px;
 }
 
 
 .logo{
     display: flex;
-    width: 200px;
+    width: 100px;
     height: auto;
     flex-grow: 2;
     
@@ -95,3 +90,33 @@ button{
 
 
 /*second section*/
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.second-section{
+    background-color: white;
+    display: flex;
+    flex: 1 1 auto;
+    gap: 40px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.images{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+/*third section*/
